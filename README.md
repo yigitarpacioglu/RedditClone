@@ -14,12 +14,13 @@ This ASP.NET project consists of 4 main parts:
 
 ## :star: 16.04.2021 <br>
 
-Conntection String has added to web config. <br>  
+Conntection String has added to web config. 
 Web UI Layer has been created with ASP.NET Mvc. <br>
 
 ![businessLayer](https://user-images.githubusercontent.com/75935753/115037482-30464180-9ed7-11eb-8cba-a15665f854be.jpg)
 
 ## :star: 16.04.2021 <br>
+
 Business Layer has been created <br>
 
 
