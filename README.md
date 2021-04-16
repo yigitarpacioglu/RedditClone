@@ -1,10 +1,13 @@
  RedditClone 
 
 This ASP.NET project consists of 4 main parts:
-:pushpin: Entity Layer
-:pushpin: DataAccess Layer
-:pushpin: Business Layer
-:pushpin: Web UI Layer 
+
+:pushpin: Web UI Layer  <br>
+:pushpin: Business Layer <br>
+:pushpin: DataAccess Layer <br>
+:pushpin: Entity Layer <br>
+
+#
 
 ![webUILayer](https://user-images.githubusercontent.com/75935753/115037508-34725f00-9ed7-11eb-8a29-483eac50d6aa.png)
 ![dataAccessLayer](https://user-images.githubusercontent.com/75935753/115037492-32100500-9ed7-11eb-8dc2-8bac6bf8f6c1.jpg)
