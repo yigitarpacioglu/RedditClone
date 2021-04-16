@@ -13,9 +13,9 @@ namespace EntityLayer.Concrete
         public int AboutId { get; set; }
 
         [StringLength(1000)]
-        public int Details1 { get; set; }
+        public string Details1 { get; set; }
         [StringLength(1000)]
-        public int Details2 { get; set; }
+        public string Details2 { get; set; }
         [StringLength(100)]
         public string AboutImage1 { get; set; }
         [StringLength(100)]
