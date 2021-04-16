@@ -20,7 +20,6 @@ Web UI Layer has been created with ASP.NET Mvc. <br>
 ![businessLayer](https://user-images.githubusercontent.com/75935753/115037482-30464180-9ed7-11eb-8cba-a15665f854be.jpg)
 
 ## :star: 16.04.2021 <br>
-
 Business Layer has been created <br>
 
 
@@ -35,7 +34,7 @@ Data Access Layer has been created.<br>
 
 ![entityLayer](https://user-images.githubusercontent.com/75935753/115037502-33413200-9ed7-11eb-8d61-8909efcb18f2.jpg)
 
-## :star: 16.04.2021:
+## :star: 16.04.2021 <br>
 
 Key and max character attributes have been set to props for proper migration. <br>
 About, Category, Contact, Content, Heading and Writer entities have been created with neccessary props. <br>
