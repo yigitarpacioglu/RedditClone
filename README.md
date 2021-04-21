@@ -28,10 +28,10 @@ This ASP.NET project consists of 4 main parts:
 
 ## 21.04.2021 <br>
 
-:star: IRepository has been added as an interface to inherit all data access interfaces.
-:star: CategoryRepository class was created for CRUD operations and contains concrete methods.
-:star: ICategoryDal interface was created for CRUD operations and contains signature of methods.
-:star: Abstract and Concrete folders was added.
+:star: IRepository has been added as an interface to inherit all data access interfaces. <br>
+:star: CategoryRepository class was created for CRUD operations and contains concrete methods. <br>
+:star: ICategoryDal interface was created for CRUD operations and contains signature of methods. <br>
+:star: Abstract and Concrete folders was added. <br>
 ## 16.04.2021 <br>
 
 :star: Migration enabled and database was created. (RedditCloneDB) <br>
