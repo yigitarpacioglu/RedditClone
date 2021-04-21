@@ -26,4 +26,5 @@ namespace EntityLayer.Concrete
         public ICollection<Content> Contents { get; set; }
 
     }
+
 }
