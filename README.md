@@ -1,4 +1,4 @@
- RedditClone 
+# REDDIT CLONE PROJECT
 
 This ASP.NET project consists of 4 main parts:
 
