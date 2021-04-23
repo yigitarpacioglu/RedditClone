@@ -1,4 +1,4 @@
- RedditClone 
+# REDDIT CLONE PROJECT
 
 This ASP.NET project consists of 4 main parts:
 
@@ -26,9 +26,15 @@ This ASP.NET project consists of 4 main parts:
 
 ![dataAccessLayer](https://user-images.githubusercontent.com/75935753/115037492-32100500-9ed7-11eb-8dc2-8bac6bf8f6c1.jpg)
 
+## 21.04.2021 <br>
+
+:star: IRepository has been added as an interface to inherit all data access interfaces. <br>
+:star: CategoryRepository class was created for CRUD operations and contains concrete methods. <br>
+:star: ICategoryDal interface was created for CRUD operations and contains signature of methods. <br>
+:star: Abstract and Concrete folders was added. <br>
 ## 16.04.2021 <br>
 
-:star: Migration enabled and database is created. (RedditCloneDB) <br>
+:star: Migration enabled and database was created. (RedditCloneDB) <br>
 :star: A class has been added where it's a DbContext and contains DbSet of the DataBase. <br>
 :star: The Entity Framework NuGet package has been installed. <br>
 :star: Data Access Layer has been created.<br>  
