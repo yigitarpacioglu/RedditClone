@@ -23,6 +23,10 @@ This ASP.NET project consists of 4 main parts:
 
 ![businessLayer](https://user-images.githubusercontent.com/75935753/115037482-30464180-9ed7-11eb-8cba-a15665f854be.jpg)
 
+## 01.05.2021 <br>
+:star: Category add and list method have been tested on UI side with Http commands.
+:star: ICategoryService implemented for injection to Abstract Class.
+
 ## 23.04.2021 <br>
 :star: Some initial functions added to Category Manager <br>
 :star: Category Manager has been created.<br>
@@ -35,7 +39,7 @@ This ASP.NET project consists of 4 main parts:
 ![dataAccessLayer](https://user-images.githubusercontent.com/75935753/115037492-32100500-9ed7-11eb-8dc2-8bac6bf8f6c1.jpg)
 
 ## 23.04.2021 <br>
-:star: Generic repository was created and generic function added.<br>
+:star: Generic repository was created and generic function added. <br>
 :star: Missing members of Abstract folder has been completed.<br>
 
 ## 21.04.2021 <br>
