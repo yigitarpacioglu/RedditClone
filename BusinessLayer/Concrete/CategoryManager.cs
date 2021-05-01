@@ -19,15 +19,15 @@ namespace BusinessLayer.Concrete
 
         public void AddCategory(Category parameter)
         {
-            if (parameter.CategoryName=="" || parameter.CategoryName.Length<=3 || 
-                parameter.CategoryDescription=="" || parameter.CategoryName.Length>=51)
-            {
-                // hata mesajı;
-            }
-            else
-            {
+            //if (parameter.CategoryName=="" || parameter.CategoryName.Length<=3 || 
+            //    parameter.CategoryDescription=="" || parameter.CategoryName.Length>=51)
+            //{
+            //    // hata mesajı;
+            //}
+            //else
+            //{
                 repo.Add(parameter);
-            }
+            //}
         }
     }
 }
