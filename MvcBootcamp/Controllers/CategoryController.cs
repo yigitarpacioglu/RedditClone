@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessLayer.Concrete;
+ using EntityLayer.Concrete;
 
  namespace MvcBootcamp.Controllers
 {
@@ -18,9 +19,22 @@ using BusinessLayer.Concrete;
 
         public ActionResult GetCategoryList()
         {
-            var categoryModel= manager.GetAll();
-            return View(categoryModel);
+            //var categoryModel= manager.GetAll();
+            return View();
 
+        }
+
+        [HttpGet]
+        public ActionResult AddCategory()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddCategory(Category category)
+        {
+            //manager.AddCategory(category);
+            return RedirectToAction("GetCategoryList");
         }
     }
 }

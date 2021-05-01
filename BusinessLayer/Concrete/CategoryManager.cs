@@ -3,31 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete.Repositories;
 using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete
 {
-    public class CategoryManager
+    public class CategoryManager : ICategoryService
     {
-        private GenericRepository<Category> repo = new GenericRepository<Category>();
+        private ICategoryDal _categoryDal;
 
-        public List<Category> GetAll()
+        public CategoryManager(ICategoryDal categoryDal)
         {
-            return repo.List();
+            _categoryDal = categoryDal;
         }
 
-        public void AddCategory(Category parameter)
+
+        public List<Category> GetList()
         {
-            //if (parameter.CategoryName=="" || parameter.CategoryName.Length<=3 || 
-            //    parameter.CategoryDescription=="" || parameter.CategoryName.Length>=51)
-            //{
-            //    // hata mesajı;
-            //}
-            //else
-            //{
-                repo.Add(parameter);
-            //}
+            return _categoryDal.List();
         }
+
     }
 }
