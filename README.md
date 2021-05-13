@@ -14,7 +14,7 @@ This ASP.NET project consists of 4 main parts:
 
 ## 23.04.2021 <br>
 
-:star: Category Controller has been created and a initial view was organized for test.
+:star: Category Controller has been created and a initial view was organized for test. <br>
 
 ## 16.04.2021 <br>
 
@@ -22,6 +22,10 @@ This ASP.NET project consists of 4 main parts:
 :star: Web UI Layer has been created with ASP.NET Mvc. <br>
 
 ![businessLayer](https://user-images.githubusercontent.com/75935753/115037482-30464180-9ed7-11eb-8cba-a15665f854be.jpg)
+
+## 01.05.2021 <br>
+:star: Category add and list method have been tested on UI side with Http commands. <br>
+:star: ICategoryService implemented for injection to Abstract Class. <br>
 
 ## 23.04.2021 <br>
 :star: Some initial functions added to Category Manager <br>
@@ -35,7 +39,7 @@ This ASP.NET project consists of 4 main parts:
 ![dataAccessLayer](https://user-images.githubusercontent.com/75935753/115037492-32100500-9ed7-11eb-8dc2-8bac6bf8f6c1.jpg)
 
 ## 23.04.2021 <br>
-:star: Generic repository was created and generic function added.<br>
+:star: Generic repository was created and generic function added. <br>
 :star: Missing members of Abstract folder has been completed.<br>
 
 ## 21.04.2021 <br>
